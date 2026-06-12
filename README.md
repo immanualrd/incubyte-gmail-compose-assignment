@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 This repository contains a comprehensive manual test suite for the **Gmail Compose & Send** workflow. The suite is delivered as a single Excel workbook with three sheets, covering both **traditional** and **BDD (Gherkin)** styles, with a balanced mix of **positive** and **negative** cases.
 
@@ -16,7 +16,7 @@ This repository contains a comprehensive manual test suite for the **Gmail Compo
 
 ---
 
-## 📊 Coverage at a Glance
+## Coverage at a Glance
 
 | Metric | Count |
 |---|---|
@@ -28,7 +28,7 @@ This repository contains a comprehensive manual test suite for the **Gmail Compo
 
 ---
 
-## 📁 Workbook Structure
+## Workbook Structure
 
 The Excel file contains three sheets:
 
@@ -47,13 +47,13 @@ Suite metrics, coverage map by area, priority key, and a colour legend.
 
 ---
 
-## 🎨 Legend
+## Legend
 
 | Colour | Meaning |
 |---|---|
-| 🟩 Green | Positive test case |
-| 🟥 Red | Negative test case |
-| 🟦 Blue | BDD scenario |
+| Green | Positive test case |
+| Red | Negative test case |
+| Blue | BDD scenario |
 
 **Priority levels:**
 - **P1** — Critical: must pass before any release gate
@@ -62,7 +62,7 @@ Suite metrics, coverage map by area, priority key, and a colour legend.
 
 ---
 
-## 🧪 Test Design Approach
+## Test Design Approach
 
 The suite goes beyond the happy path to reflect real-world QA depth:
 
@@ -80,13 +80,13 @@ The suite goes beyond the happy path to reflect real-world QA depth:
 
 ---
 
-## 🏷️ Classification Note
+## Classification Note
 
-Classification follows a consistent principle: **BDD scenarios are typed by the behaviour being validated** (e.g. successful draft recovery → Positive), while **traditional cases triggered by abnormal conditions are treated as Negative / error-handling**. This keeps the BDD layer behaviour-focused and the traditional layer condition-focused.
+Classification follows a consistent principle: **BDD scenarios are typed by the behaviour being validated** (e.g. successful draft recovery  Positive), while **traditional cases triggered by abnormal conditions are treated as Negative / error-handling**. This keeps the BDD layer behaviour-focused and the traditional layer condition-focused.
 
 ---
 
-## 🧠 Test Design Techniques
+## Test Design Techniques
 
 This suite applies established test design techniques to maximize coverage and minimize redundancy:
 
@@ -100,7 +100,7 @@ This suite applies established test design techniques to maximize coverage and m
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Open `Gmail_Compose_TestCases_Incubyte_v2.xlsx`.
 2. Start with the `Summary` sheet for scope and counts.
@@ -109,7 +109,7 @@ This suite applies established test design techniques to maximize coverage and m
 
 ---
 
-## ✅ Environment
+## Environment
 
 - **Application under test:** Gmail (web)
 - **Browsers:** Chrome / latest evergreen browsers
@@ -117,8 +117,8 @@ This suite applies established test design techniques to maximize coverage and m
 
 ---
 
-## 👤 Author
+## Author
 
 **Immanual Daniel**
 QA Engineer · 6.4+ Years QA Experience
-📧 immanualrd@gmail.com
+immanualrd@gmail.com
