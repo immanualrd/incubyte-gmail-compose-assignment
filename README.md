@@ -120,5 +120,5 @@ This suite applies established test design techniques to maximize coverage and m
 ## Author
 
 **Immanual Daniel**
-QA Engineer · 6.4+ Years QA Experience
+QA Engineer
 immanualrd@gmail.com
